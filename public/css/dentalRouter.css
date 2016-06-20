@@ -715,7 +715,30 @@ h6 {
 	
 }
 
+/*로그아웃*/
+/*logout*/
 
+.logout-page {
+	width: 50%;
+	margin: 0 auto;
+	border:10px solid black;
+	text-align: center;
+	padding: 5%;
+	margin-top: 10%;
+}
+
+.logout-page h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	background: black;
+	color: yellow;
+	padding: 5%;
+}
+
+.logout-page p {
+	font-size: 1em;
+	font-weight: bold;
+}
 
 
 
