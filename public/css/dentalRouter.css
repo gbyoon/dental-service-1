@@ -611,6 +611,24 @@ h6 {
 	box-shadow: 2px 2px 3px #999;
 }
 
+/*신규치과등록페이지 중간부분*/
+
+.denSrch-search {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.denSrch-search h4 {
+	font-weight: bold;
+	font-family: Ubuntu;
+}
+
+.container-fluid-denSrch {
+	width: 70%;
+	margin: 60px auto;
+	
+}
+
 
 
 
