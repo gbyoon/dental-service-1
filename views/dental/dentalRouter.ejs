@@ -294,6 +294,7 @@
             })
             .success(function(data){
               asgn_deferred.resolve(data);
+            })
             .error(function(msg, code) {
               deferred.reject(msg);
               //$log.error(msg, code);
