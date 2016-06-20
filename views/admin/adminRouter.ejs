@@ -261,8 +261,13 @@
 
           $timeout(function () {
             //$http.get('pages/js/people.json').success(function (data) {
-            $http.get('/srchMemInfoNasgned').success(function (data) {
+            $http.get('/srchMemInfoNasgned')
+            .success(function (data) {
               nasgn_deferred.resolve(data);
+            })
+            .error(function(msg, code) {
+              deferred.reject(msg);
+              //$log.error(msg, code);
             });
           }, 500);
 
@@ -273,9 +278,15 @@
 
           $timeout(function () {
             //$http.get('pages/js/people.json').success(function (data) {
-            $http.get('/srchMemInfoAsgned').success(function (data) {
+            $http.get('/srchMemInfoAsgned')
+            .success(function (data) {
               asgn_deferred.resolve(data);
+            })
+            .error(function(msg, code) {
+              deferred.reject(msg);
+              //$log.error(msg, code);
             });
+
           }, 500);
 
           return asgn_deferred.promise;
@@ -286,8 +297,13 @@
           $timeout(function () {
             //$http.get('pages/js/people.json').success(function (data) {
             //$http.get('/srchMemberInfoAsgn').success(function (data) {
-            $http.get('/adminSrchMemInfoCmplted').success(function (data) {
+            $http.get('/adminSrchMemInfoCmplted')
+            .success(function (data) {
               asgn_deferred.resolve(data);
+            })
+            .error(function(msg, code) {
+              deferred.reject(msg);
+              //$log.error(msg, code);
             });
           }, 500);
 
@@ -305,8 +321,13 @@
                 name: name,
                 mobile: mobile
                 }
-            }).success(function(data){
+            })
+            .success(function(data){
               asgn_deferred.resolve(data);
+            })
+            .error(function(msg, code) {
+              deferred.reject(msg);
+              //$log.error(msg, code);
             });
           }, 500);
 

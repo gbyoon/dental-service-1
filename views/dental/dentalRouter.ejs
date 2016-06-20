@@ -229,9 +229,15 @@
 
           $timeout(function () {
             //$http.get('pages/js/people.json').success(function (data) {
-            $http.get('/srchMemInfoNasgned').success(function (data) {
+            $http.get('/srchMemInfoNasgned')
+            .success(function (data) {
               nasgn_deferred.resolve(data);
+            })
+            .error(function(msg, code) {
+              deferred.reject(msg);
+              //$log.error(msg, code);
             });
+
           }, 500);
 
           return nasgn_deferred.promise;
@@ -242,8 +248,13 @@
           $timeout(function () {
             //$http.get('pages/js/people.json').success(function (data) {
             //$http.get('/srchMemberInfoAsgn').success(function (data) {
-            $http.get('/dentalSrchMemInfo').success(function (data) {
+            $http.get('/dentalSrchMemInfo')
+            .success(function (data) {
               asgn_deferred.resolve(data);
+            })
+            .error(function(msg, code) {
+              deferred.reject(msg);
+              //$log.error(msg, code);
             });
           }, 500);
 
@@ -255,8 +266,13 @@
           $timeout(function () {
             //$http.get('pages/js/people.json').success(function (data) {
             //$http.get('/srchMemberInfoAsgn').success(function (data) {
-            $http.get('/dentalSrchMemInfoCmplted').success(function (data) {
+            $http.get('/dentalSrchMemInfoCmplted')
+            .success(function (data) {
               asgn_deferred.resolve(data);
+            })
+            .error(function(msg, code) {
+              deferred.reject(msg);
+              //$log.error(msg, code);
             });
           }, 500);
 
@@ -274,8 +290,12 @@
                 name: name,
                 mobile: mobile
                 }
-            }).success(function(data){
+            })
+            .success(function(data){
               asgn_deferred.resolve(data);
+            .error(function(msg, code) {
+              deferred.reject(msg);
+              //$log.error(msg, code);
             });
           }, 500);
 
