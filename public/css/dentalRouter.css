@@ -560,6 +560,11 @@ h6 {
 	}	
 }
 
+.denreg_res_container{
+	
+	max-width: 300px;
+}
+
 .res_container {
 
 	margin: 3.33334% auto;
