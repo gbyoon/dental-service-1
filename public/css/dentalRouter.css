@@ -638,8 +638,12 @@ h6 {
 }
 
 .denreg_res_container{
+
+}
+
+.memreg_res_container{
 	margin: 20px auto;
-	max-width: 600px;
+	max-width: 600px;	
 }
 
 .res_container {
