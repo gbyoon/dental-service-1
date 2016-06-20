@@ -642,14 +642,14 @@ h6 {
 	max-width: 600px;
 }
 
-.memreg_res_container{
+.mem_res_container{
 	margin: 20px auto;
 	max-width: 600px;
 	border: 1px solid red;	
 }
 
 .res_container {
-
+	
 	margin: 3.33334% auto;
 }
 
