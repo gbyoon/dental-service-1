@@ -224,5 +224,13 @@
 	box-shadow: 2px 2px 3px #999;
 }
 
+@media (max-width:1000px) {
+	.col-md-11 .breadcrumb{
+		
+		border:1px solid red;
+		
+	}
+}
+
 
 
