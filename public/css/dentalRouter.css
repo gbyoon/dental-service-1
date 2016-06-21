@@ -374,7 +374,11 @@ h6 {
 @media (max-width: 367px){
 	.sub_menu ul li{
 		display: block;
+		border-bottom: 1px solid #fff;
 	}
+	.sub_menu ul li:hover{
+		background: red;
+	}	
 
 }
 
