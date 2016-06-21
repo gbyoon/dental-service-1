@@ -61,8 +61,7 @@ html, body {
 
 @media (max-width:855px ){
 	.center h2 {
-		width: 82%;
-		margin-left: 95px;
+		display: none;
 	}
 
 	.center h1 {
@@ -72,10 +71,6 @@ html, body {
 }
 
 @media (max-width:763px ){
-	.center h2 {
-		width: 82%;
-		margin-left: -23px;
-	}
 	
 	.center h1 {
 
@@ -84,10 +79,6 @@ html, body {
 }
 
 @media (max-width: 515px ){
-	.center h2 {
-
-		display: none;
-	}
 	
 	.center h1 {
 		font-size: 45px;
