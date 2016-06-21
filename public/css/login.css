@@ -279,5 +279,5 @@ form button:hover {
 
 /*밸리데이션*/
 
-.form .adminName {border:1px solid red; margin-bottom:5px;}
+.form .adminName {border:1px solid red; margin-bottom:5px; display: block;}
 .form .password {border:1px solid red;}
