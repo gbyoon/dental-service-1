@@ -80,6 +80,14 @@ body :-ms-input-placeholder {
 
 /*로그인 페이지 입니다 글씨*/
 
+@media(max-width:773px){
+	
+   .container h1{
+		font-size: 18px;
+	}
+	
+}
+
 
 @media(max-width:355px){
 	
