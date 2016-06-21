@@ -167,10 +167,11 @@
 	color: #666;
 }
 
-@media (max-width: 809px){
+@media (max-width:830px) {
 	.res_wrapper{
-	 margin-left: 80px;
-	}	
+		border: 1px solid red;
+		margin-left: 136px;
+	}
 }
 
 .res_container {
@@ -234,12 +235,7 @@
 	}
 }
 
-@media (max-width:830px) {
-	.res_wrapper{
-		border: 1px solid red;
-		margin-left: 121px;
-	}
-}
+
 
 
 
