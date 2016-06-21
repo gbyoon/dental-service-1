@@ -73,15 +73,13 @@ html, body {
 
 @media (max-width: 515px ){
 	.center h2 {
-		width: 60%;
-		margin-left: 69px;
-		font-size: 17px;
+
 		display: none;
 	}
 	
 	.center h1 {
-		font-size: 18px;
-		margin-left: 66px;
+		font-size: 45px;
+		margin-left: 0px;
 	}
 }
 
