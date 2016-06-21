@@ -177,7 +177,8 @@
 @media(max-width:740px) {
 	.denreg_res_wrapper{
 
-		margin-left: 20px;
+		margin-left: 10px;
+		width: 94%;
 	}
 }
 
