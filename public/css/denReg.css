@@ -242,6 +242,14 @@
 	}
 }
 
+@media (max-width:400px){
+	#contact label{
+		width: 23%;
+		font-size: 70%;
+	}
+	
+}
+
 
 
 
