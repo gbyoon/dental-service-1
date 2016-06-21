@@ -15,6 +15,14 @@ body {
   color: white;
   font-weight: 300;
 }
+
+@media(max-width:773px){
+	body{
+		height: 100%;
+	}
+}	
+
+
 body ::-webkit-input-placeholder {
   /* WebKit browsers */
   font-family: 'Source Sans Pro', sans-serif;
