@@ -74,8 +74,13 @@ html, body {
 @media (max-width:763px ){
 	.center h2 {
 		width: 82%;
-		margin-left: 50px;
+		margin-left: -23px;
 	}
+	
+	.center h1 {
+
+		margin-left: -44px;
+	}	
 }
 
 @media (max-width: 515px ){
