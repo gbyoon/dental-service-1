@@ -90,13 +90,15 @@ h6 {
 	/*background: #000;*/
 }
 
-/*
+
+
+
 @media (max-width: 768px){
 	.wrap-content {
-		padding-left: 64px;
+		padding-left: 0px;
 	}
 }
-*/
+
 
 /*****오른쪽*****/
 .aside {
