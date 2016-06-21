@@ -270,3 +270,9 @@ form button:hover {
             transform: translateY(-700px) rotate(600deg);
   }
 }
+
+
+
+/*밸리데이션*/
+
+.form span {border: 1px solid red;}
