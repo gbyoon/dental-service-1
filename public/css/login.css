@@ -276,7 +276,8 @@ form button:hover {
 
 @media(max-width:355px){
 	
-	h1{font-size: 15px;}
+	h1{
+		font-size: 15px;}
 	
 }
 
@@ -290,4 +291,4 @@ form button:hover {
 	font-size: 22px;
 	}
 	
-.form .password {border:1px solid red; display: block;}
+.form .password {margin-bottom:31px; display: block; font-size: 22px;}
