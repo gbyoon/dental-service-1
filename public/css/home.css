@@ -76,6 +76,7 @@ html, body {
 		width: 60%;
 		margin-left: 69px;
 		font-size: 17px;
+		display: none;
 	}
 	
 	.center h1 {
