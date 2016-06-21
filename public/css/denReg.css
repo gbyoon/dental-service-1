@@ -114,17 +114,17 @@
 		display: block;
 		margin: 0 0 10px 10px;
 	}
-	#contact label {
+	#denreg_contact label {
 		width: 23%;
 		font-size: 150%;
 		text-align: left;
 	}
-	#contact input {
+	#denreg_contact input {
 		width: 94.3%;
 		font-size: 100%;
 		margin-left: 10px;
 	}
-	#contact .button {
+	#denreg_contact .button {
 		margin-left: 10px;
 		font-size: 130%;
 	}
@@ -139,18 +139,18 @@
 	input {
 		display: inline-block;
 	}
-	#contact label{
+	#denreg_contact label{
 		font-size: 100%;
 		width: 20%;
 		text-align: right;
 	}
-	#contact label[for=message]{
+	#denreg_contact label[for=message]{
 		vertical-align: top;
 	}
-	#contact input {
+	#denreg_contact input {
 		width: 66.6667%;
 	}
-	#contact .button {
+	#denreg_contact .button {
 		margin-left: 24%;
 		font-size: 90%;
 	}
@@ -194,7 +194,7 @@
 	border-top: 1px solid #EBEBEB;
 }
 
-#contact input {
+#denreg_contact input {
 	color: #666;
 	box-sizing: border-box;
 	border: 1px solid #CCC;
@@ -203,12 +203,12 @@
 	height: 40px;
 }
 
-#contact input:focus {
+#denreg_contact input:focus {
 	outline: none;
 	box-shadow: inset 1px 2px 3px #CCC;
 }
 
-#contact .button {
+#denreg_contact .button {
 	border: 1px solid #1A4F82;
 	padding: 8px 15px;
 	border-radius: 3px;
@@ -221,7 +221,7 @@
 	cursor: pointer;
 }
 
-#contact .button:hover {
+#denreg_contact .button:hover {
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	-moz-transition: all 0.5s ease-in-out 0s;
 	-o-transition: all 0.5s ease-in-out 0s;
@@ -243,7 +243,7 @@
 }
 
 @media (max-width:400px){
-	#contact label{
+	#denreg_contact label{
 		width: 23%;
 		font-size: 70%;
 		text-align: center;
