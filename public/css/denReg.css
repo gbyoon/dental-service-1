@@ -228,7 +228,7 @@
 	.col-md-11 .breadcrumb{
 		
 		border:1px solid red;
-		
+		display: none;
 	}
 }
 
