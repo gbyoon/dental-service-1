@@ -289,6 +289,14 @@ form button:hover {
 	margin-bottom:31px; 
 	display: block; 
 	font-size: 22px;
+	color: red;
+	font-weight:bold;
 	}
 	
-.form .password {margin-bottom:31px; display: block; font-size: 22px;}
+.form .password {
+	margin-bottom:31px; 
+	display: block; 
+	font-size: 22px;
+	color: red;
+	font-weight: bold;
+	}
