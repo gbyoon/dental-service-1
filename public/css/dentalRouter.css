@@ -368,7 +368,7 @@ h6 {
 
 @media (max-width: 367px){
 	.sub_menu ul li{
-		display: none;
+		display: block;
 		margin-left: -30px;
 			
 	}
