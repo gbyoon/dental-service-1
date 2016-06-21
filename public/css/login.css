@@ -78,6 +78,18 @@ body :-ms-input-placeholder {
   font-weight: 500;
 }
 
+/*로그인 페이지 입니다 글씨*/
+
+
+@media(max-width:355px){
+	
+	.container h1{
+		font-size: 15px;
+		border: 1px solid red;
+		}
+	
+}
+
 .container h1 span{
 	color:#77b1f9;
 	font-weight:bold;
@@ -271,15 +283,7 @@ form button:hover {
   }
 }
 
-/*로그인 페이지 입니다 글씨*/
 
-
-@media(max-width:355px){
-	
-	h1{
-		font-size: 15px;}
-	
-}
 
 
 
