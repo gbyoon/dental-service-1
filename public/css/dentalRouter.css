@@ -90,11 +90,13 @@ h6 {
 	/*background: #000;*/
 }
 
+/*
 @media (max-width: 768px){
 	.wrap-content {
 		padding-left: 64px;
 	}
 }
+*/
 
 /*****오른쪽*****/
 .aside {
@@ -110,6 +112,7 @@ h6 {
 
 @media (max-width: 768px){
 	.aside {
+		display: none;
 		width: 65px;
 		box-shadow: none !important;
 	}
