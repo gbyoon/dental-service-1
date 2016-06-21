@@ -4,11 +4,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 
 
-.jumbotron {
-	width:70%;
-	margin: 0 auto;
-}
-
 
 
 /*breadcrumb메뉴*/
@@ -35,7 +30,7 @@
 }
 
 .row {
-	margin:0 -20px 20px -20px;
+	margin:-25px -20px 20px -20px;
 	padding-bottom: 20px;
 }
 
@@ -108,12 +103,65 @@
 		}
 }
 
-/*res_wrapper*/
+/*등록창 - 미디어 쿼리*/
+
+@media only screen and (min-width: 240px){
+	h1{
+		font: 500 200%/100% Ubuntu;
+		margin: 0 0 30px 10px;
+	}
+	label{
+		display: block;
+		margin: 0 0 10px 10px;
+	}
+	#contact label {
+		width: 23%;
+		font-size: 150%;
+		text-align: left;
+	}
+	#contact input {
+		width: 94.3%;
+		font-size: 100%;
+		margin-left: 10px;
+	}
+	#contact .button {
+		margin-left: 10px;
+		font-size: 130%;
+	}
+}
+
+@media only screen and (min-width: 480px){
+	h1{
+		font: 500 160%/100% Ubuntu;
+		margin: 0 0 20px 10px;
+	}
+	label,
+	input {
+		display: inline-block;
+	}
+	#contact label{
+		font-size: 100%;
+		width: 20%;
+		text-align: right;
+	}
+	#contact label[for=message]{
+		vertical-align: top;
+	}
+	#contact input {
+		width: 66.6667%;
+	}
+	#contact .button {
+		margin-left: 24%;
+		font-size: 90%;
+	}
+}
+
+/*등록창*/
 
 .res_wrapper{
 	border: 3px solid #EEEEEE;
 	width: 80%;
-
+	margin-left: 150px;
 	font-family: Ubuntu;
 	font-weight: 400;
 	color: #666;
@@ -121,55 +169,51 @@
 
 @media (max-width: 809px){
 	.res_wrapper{
-		margin-left: 80px;
-	}
+	 margin-left: 80px;
+	}	
 }
 
-.res_container{
+.res_container {
+
+	max-width: 600px;
 	margin: 3.33334% auto;
 }
 
-/*미배정 고객 리스트 showuser*/
+.line {
 
-.Mem-showuser{
-	
-	border: 12px solid #ECEFF1;
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
-	padding: 5%;
+	clear: both;
+	padding: 12px 0;
+	border-top: 1px solid #EBEBEB;
 }
 
-.Mem-showuser h4 {
-	font-size: 1.5em;
-	font-weight: bold;
-	font-family:Ubuntu;
-	
-}
-
-.Mem-showuser pre {
-	font-size: 1em;
-	font-weight: bold;
-	font-family:Ubuntu;
-	
-	
-}
-
-.Mem-showuser button{
-	margin: 30px 0 0 20px;
-	padding: 10px 15px;
-	border: 1px solid #00BCD4;
+#contact input {
+	color: #666;
+	box-sizing: border-box;
+	border: 1px solid #CCC;
 	border-radius: 3px;
-	color: #fff;
+	padding: 5px 8px;
+	height: 40px;
+}
+
+#contact input:focus {
+	outline: none;
+	box-shadow: inset 1px 2px 3px #CCC;
+}
+
+#contact .button {
+	border: 1px solid #1A4F82;
+	padding: 8px 15px;
+	border-radius: 3px;
+	color: #CFE6FC;
 	font-family: Ubuntu;
 	font-weight: 300;
 	background-color: #1A4F82;
-	background-image: linear-gradient(#00BCD4, #00BCD4);
+	background-image: linear-gradient(#215F9C, #1A4F82);
 	-o-background-image: linear-gradient(#215F9C, #1A4F82);
-	cursor: pointer;	
+	cursor: pointer;
 }
 
-.Mem-showuser button:hover {
+#contact .button:hover {
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	-moz-transition: all 0.5s ease-in-out 0s;
 	-o-transition: all 0.5s ease-in-out 0s;
@@ -177,7 +221,7 @@
 	background-image: linear-gradient(#2B75BD, #1F5F9C);
 	-o-background-image: linear-gradient(#2B75BD, #1F5F9C);
 	color: #FFF;
-	box-shadow: 2px 2px 3px #999;	
+	box-shadow: 2px 2px 3px #999;
 }
 
 

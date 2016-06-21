@@ -1,47 +1,39 @@
-
-
-
-
 	  <!--로그인-->
 	  <link rel="stylesheet" href="pages/css/cmpltMemSrch.css">
 	  
 
+			
+				<div class="row row-broken"><!--섹션1-->
+					<div class="col-md-11">
+						<ol class="breadcrumb">
+							<li><a href="#"><i class="fa fa-th-large" aria-hidden="true"></i></a></li>				
+							<li>{{ message }}</li>
+							<li> Title : {{ msg }}</li>
+						</ol>
+					</div>		
+				</div><!--//섹션1-->
+				
+		<div class="res_wrapper"><!--res_wrapper-->
+			<div class="res_container"><!--res_container-->				
 
-  
-  
+				<div ng-show="showUser" class="cmp-showuser">
 
+					<p>성함 : {{ memName }}</p>
+					<p>생년월일 : {{ memBirth }}</p>
+					<p>주소 : {{ memAddress }}</p>
+					<p>휴대폰 : {{ memMobile }}</p>
+					<p>x-ray : {{ dental }}</p>
+					<img ng-src="data:image/jpg;base64,{{imgSrc}}"><br/><br/>
+					<button ng-click="clsShowUser()">닫기</button>
 
+				</div>
 
-		<div class="row row-broken"><!--섹션1-->
-			<div class="col-md-11">
-				<ol class="breadcrumb">
-					<li><a href="#"><i class="fa fa-th-large" aria-hidden="true"></i></a></li>				
-					<li>{{ message }}</li>
-					<li> Title : {{ msg }}</li>
-				</ol>
-			</div>		
-		</div><!--//섹션1-->
-
-		<div ng-show="showUser" class="jumbotron text-center">
-
-			<p>Member Name : {{ memName }}</p>
-			<p>Member Birth : {{ memBirth }}</p>
-			<p>Member Address : {{ memAddress }}</p>
-			<p>Member Mobile : {{ memMobile }}</p>
-			<p>Dental Clinic : {{ dental }}</p>
-			<img ng-src="data:image/jpg;base64,{{imgSrc}}"><br/><br/>
-			<button ng-click="clsShowUser()">close</button>
-
-		</div>
-
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2" style="margin-bottom: 30px;margin-top: 30px;">
-			  <veasy-table list="people" selected-items="selecteds" config="config"></veasy-table>
-			</div>
-		</div>
-        <p>{{ test_string }}</p>
-		
-	
-
-
-
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2" style="margin-bottom: 30px;margin-top: 30px;">
+					  <veasy-table list="people" selected-items="selecteds" config="config"></veasy-table>
+					</div>
+				</div>
+				<p>{{ test_string }}</p>
+				
+			</div><!--//res_container-->
+		</div><!--//res_wrapper-->		

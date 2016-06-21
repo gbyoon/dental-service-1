@@ -61,25 +61,28 @@ html, body {
 
 @media (max-width:855px ){
 	.center h2 {
-		width: 60%;
-		margin-left: 40px;
+		display: none;
 	}
-	
+
 	.center h1 {
-		font-size: 15px;
+		margin-left: 80px;
 	}	
 	
 }
 
-@media (max-width: 515px ){
-	.center h2 {
-		width: 60%;
-		margin-left: 69px;
-	}
+@media (max-width:763px ){
 	
 	.center h1 {
-		font-size: 18px;
-		margin-left: 66px;
+
+		margin-left: -44px;
+	}	
+}
+
+@media (max-width: 515px ){
+	
+	.center h1 {
+		font-size: 45px;
+		margin-left: 0px;
 	}
 }
 

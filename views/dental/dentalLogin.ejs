@@ -50,15 +50,24 @@
   <body ng-controller="mainCtrl">
 
     <div class="wrapper"><!--wrapper-->
-		 <div class="container"><!--container-->
-			<h1>제휴치과 로그인 페이지</h1>
+		<div class="container"><!--container-->
+		  <h1>제휴치과 로그인 페이지</h1>
 		  
-			  <form class="form">
-				<input type="text" placeholder="아이디" ng-model="username"/> <br/>
-				<input type="text" placeholder="패스워드" ng-model="password"/> <br/>
-				<button ng-click="submit()">로그인</button>
-			  </form>
-		 </div><!--//container-->
+		  <form class="form"  name="adminLoginForm" novalidate>
+			<input type="text" name="username" placeholder="아이디" ng-model="username" ng-required="true" autocomplete="off"/> <br/>
+			<span ng-show="adminLoginForm.username.$dirty && adminLoginForm.username.$invalid">
+			<span class="adminName" ng-show="adminLoginForm.username.$error.required">아이디가 필요합니다.</span>
+			</span>
+			
+			<input type="password" name="password" placeholder="패스워드" ng-model="password" ng-required="true" autocomplete="off"/> <br/>
+			<span ng-show="adminLoginForm.password.$dirty && adminLoginForm.password.$invalid">
+			<span class="password" ng-show="adminLoginForm.password.$error.required">패스워드가 필요합니다.</span>
+			</span>			
+			
+			<button ng-click="submit()" id="login-button" ng-disabled="adminLoginForm.username.$dirty && adminLoginForm.username.$invalid || adminLoginForm.password.$dirty && adminLoginForm.password.$invalid">로그인</button>
+		  </form>
+		  
+		</div><!--//container-->
 
 			<ul class="bg-bubbles">
 				<li></li>
@@ -182,5 +191,6 @@
     });
 */
     </script>
+	
   </body>
 </html>
