@@ -242,7 +242,7 @@
 	}
 }
 
-@media (max-width:400px){
+@media (max-width:480px){
 	#denreg_contact label{
 		width: 23%;
 		font-size: 70%;
