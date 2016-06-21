@@ -237,6 +237,7 @@
 @media (max-width:830px) {
 	.res_wrapper{
 		border: 1px solid red;
+		margin-left: 121px;
 	}
 }
 
