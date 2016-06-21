@@ -79,82 +79,6 @@ h6 {
 	width: 100%;
 }
 
-/*****홈부분*****/
-
-::-moz-selection {
-	background-color: #ffbe0c;
-	color: #fff5f2;
-}
-
-::selection {
-	background-color: #ffbe0c;
-	color: #fff5f2;
-}
-
-.center {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	height: 100%;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-			flex-direction: column;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-		-ms-flex-pack: center;
-			justify-content: center;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-		-ms-flex-align: center;
-			align-items: center;
-	margin-top: 230px;		
-}
-
-.center h1, .center h2 {
-	text-transform: uppercase;
-	margin: 0;
-}
-
-.center h2 {
-	letter-spacing: .4em;
-	padding: .4em .7em;
-	background-color: #141115;
-	color: #ffbe0c;
-}
-
-.center h1 {
-	color: #03A9F4;
-	font-size: 3.2em;
-	margin-top: 5px;
-}
-
-@media (max-width:855px ){
-	.center h2 {
-		width: 60%;
-		margin-left: 40px;
-	}
-	
-	.center h1 {
-		font-size: 15px;
-	}	
-	
-}
-
-@media (max-width: 515px ){
-	.center h2 {
-		width: 60%;
-		margin-left: 69px;
-	}
-	
-	.center h1 {
-		font-size: 18px;
-		margin-left: 66px;
-	}
-}
-
 
 /*****wrap*****/
 .wrap-content {
@@ -439,185 +363,27 @@ h6 {
 .sub_menu .sub_container .sub_name{float:left; margin:10px 0 0 0px;}
 .sub_menu .sub_container .sub_name a{ text-decoration:none; font-size:1em; color:#fff; font-weight:bold;}
 
-.sub_menu ul{margin-left:235px;}
+.sub_menu ul{margin-left:150px;}
 .sub_menu ul li{display:inline-block; padding:11px 0 2px 42px;font-size:15px; font-weight:bold;}
 .sub_menu ul li a{ text-decoration: none; color:#fff;}
 .sub_menu ul li a:hover{color:#000;}
 .sub_menu ul li i {margin-right:2px;}
 
-@media (max-width:1154px){
-	.sub_menu ul{
-    margin-left: 172px;}
+/*줄줄이 아이콘*/
+@media (max-width: 837px){
+	.sub_menu .sub_container .sub_name {display: none;}
+	.sub_menu ul {
+		margin-left: -78px;
+		text-align: center;
+	}
 }
 
 @media (max-width:580px){
-	.sub_menu ul{ margin-left: -64px;}
-	.sub_menu .sub_container .sub_name {float:none;}
+	.sub_menu .sub_container .sub_name {display: none;}
 }
 
 @media (max-width:389px){
-	.sub_menu .sub_container .sub_name a{display:none;}
-	.sub_menu ul {
-    margin-left: -204px;}	
-}
-
-@media (max-width:832px){
-	.sub_menu li{
-		display: none;
-		padding: 0;
-		text-decoration: none;
-		margin-left: 130px;}
-}
-
-
-/*breadcrumb메뉴*/
-
-
-.row.row-broken {
-	padding-left: 130px;
-	
-}
-
-/*메뉴 조정*/
-
-@media (max-width:800px){
-	.row.row-broken {
-	padding-left: 86px;
-	}	
-}
-
-@media (max-width:780px){
-	.row.row-broken {
-	width:80%;
-	margin-left: 20px;
-	}	
-}
-
-.row {
-	margin:-25px -20px 20px -20px;
-	padding-bottom: 20px;
-}
-
-.row:before,
-.row:after {
-	content:"";
-	display: table;
-	clear: both;
-}
-
-.row.row-broken > div[class*='col-'] {
-	padding-top: 0;
-	padding-left: 0;
-}
-
-.row.row-broken > div[class*='col-']:last-child{
-	padding-right: 0;
-}
-
-@media (max-width: 1200px){
-	.row.row-broken .col-md-12:last-child{
-		padding-bottom: 0;
-	}
-}
-
-/*breadcrumb*/
-
-.breadcrumb {
-	border-radius: 0;
-	background-color: transparent;
-	margin-bottom: 0;
-	box-shadow: 1px 0px 12px 1px #E0E0E0;
-	list-style: none;
-}
-
-.breadcrumb li {
-	font-size: 18px;
-	font-weight: 600;
-	color: #00BCD4;
-	display: inline-block;
-}
-
-.breadcrumb li a {
-	text-decoration: none;
-	background-color: transparent;
-	color: #00BCD4;
-}
-
-.breadcrumb li i{
-	font-size: 22px;
-}
-
-.breadcrumb > .active {
-	color: #777777;
-}
-
-.breadcrumb li + li:before {
-	content: "\f054";
-	font-family: "FontAwesome";
-	font-size: 14px;
-	padding: 0 10px;
-	color: #00BCD4;
-	vertical-align: text-top;
-}
-
-@media (width:866px){
-	.table_container{
-		width: 60%;
-		margin-left: 20px;
-		}
-}
-
-/*등록창 - 미디어 쿼리*/
-
-@media only screen and (min-width: 240px){
-	h1{
-		font: 500 200%/100% Ubuntu;
-		margin: 0 0 30px 10px;
-	}
-	label{
-		display: block;
-		margin: 0 0 10px 10px;
-	}
-	#contact label {
-		width: 23%;
-		font-size: 150%;
-		text-align: left;
-	}
-	#contact input {
-		width: 94.3%;
-		font-size: 100%;
-		margin-left: 10px;
-	}
-	#contact .button {
-		margin-left: 10px;
-		font-size: 130%;
-	}
-}
-
-@media only screen and (min-width: 480px){
-	h1{
-		font: 500 160%/100% Ubuntu;
-		margin: 0 0 20px 10px;
-	}
-	label,
-	input {
-		display: inline-block;
-	}
-	#contact label{
-		font-size: 100%;
-		width: 20%;
-		text-align: right;
-	}
-	#contact label[for=message]{
-		vertical-align: top;
-	}
-	#contact input {
-		width: 66.6667%;
-	}
-	#contact .button {
-		margin-left: 24%;
-		font-size: 90%;
-	}
+	.sub_menu .sub_container .sub_name a {display: none;}
 }
 
 
