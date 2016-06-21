@@ -224,6 +224,8 @@
 	box-shadow: 2px 2px 3px #999;
 }
 
+/*위 신규 치과 등록 메뉴 없애기*/
+
 @media (max-width:1000px) {
 	.col-md-11 .breadcrumb{
 		
