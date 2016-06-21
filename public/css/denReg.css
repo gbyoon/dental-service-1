@@ -180,6 +180,11 @@
 		margin-left: 10px;
 		width: 94%;
 	}
+	
+	.denreg_res_wrapper h1{
+		font: 500 149%/100% Ubuntu;
+		text-align: center;
+	}
 }
 
 .res_container {
@@ -245,8 +250,8 @@
 
 @media (max-width:480px){
 	#denreg_contact label{
-		width: 23%;
-		font-size: 70%;
+		width: 90%;
+		font-size: 20%;
 		text-align: center;
 	}
 	
