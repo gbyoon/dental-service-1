@@ -114,17 +114,17 @@
 		display: block;
 		margin: 0 0 10px 10px;
 	}
-	#contact label {
+	#denreg_contact label {
 		width: 23%;
 		font-size: 150%;
 		text-align: left;
 	}
-	#contact input {
+	#denreg_contact input {
 		width: 94.3%;
 		font-size: 100%;
 		margin-left: 10px;
 	}
-	#contact .button {
+	#denreg_contact .button {
 		margin-left: 10px;
 		font-size: 130%;
 	}
@@ -139,18 +139,18 @@
 	input {
 		display: inline-block;
 	}
-	#contact label{
+	#denreg_contact label{
 		font-size: 100%;
 		width: 20%;
 		text-align: right;
 	}
-	#contact label[for=message]{
+	#denreg_contact label[for=message]{
 		vertical-align: top;
 	}
-	#contact input {
+	#denreg_contact input {
 		width: 66.6667%;
 	}
-	#contact .button {
+	#denreg_contact .button {
 		margin-left: 24%;
 		font-size: 90%;
 	}
@@ -158,19 +158,33 @@
 
 /*등록창*/
 
-.res_wrapper{
+.denreg_res_wrapper{
 	border: 3px solid #EEEEEE;
 	width: 80%;
-	margin-left: 150px;
+	margin-left: 160px;
 	font-family: Ubuntu;
 	font-weight: 400;
 	color: #666;
 }
 
-@media (max-width: 809px){
-	.res_wrapper{
-	 margin-left: 80px;
-	}	
+@media(max-width:830px) {
+	.denreg_res_wrapper{
+
+		margin-left: 136px;
+	}
+}
+
+@media(max-width:740px) {
+	.denreg_res_wrapper{
+
+		margin-left: 10px;
+		width: 94%;
+	}
+	
+	.denreg_res_wrapper h1{
+		font: 500 149%/100% Ubuntu;
+		text-align: center;
+	}
 }
 
 .res_container {
@@ -186,7 +200,7 @@
 	border-top: 1px solid #EBEBEB;
 }
 
-#contact input {
+#denreg_contact input {
 	color: #666;
 	box-sizing: border-box;
 	border: 1px solid #CCC;
@@ -195,12 +209,12 @@
 	height: 40px;
 }
 
-#contact input:focus {
+#denreg_contact input:focus {
 	outline: none;
 	box-shadow: inset 1px 2px 3px #CCC;
 }
 
-#contact .button {
+#denreg_contact .button {
 	border: 1px solid #1A4F82;
 	padding: 8px 15px;
 	border-radius: 3px;
@@ -213,7 +227,7 @@
 	cursor: pointer;
 }
 
-#contact .button:hover {
+#denreg_contact .button:hover {
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	-moz-transition: all 0.5s ease-in-out 0s;
 	-o-transition: all 0.5s ease-in-out 0s;
@@ -223,6 +237,27 @@
 	color: #FFF;
 	box-shadow: 2px 2px 3px #999;
 }
+
+/*위 신규 치과 등록 메뉴 없애기*/
+
+@media (max-width:1000px) {
+	.col-md-11 .breadcrumb{
+		
+		border:1px solid red;
+		display: none;
+	}
+}
+
+@media (max-width:480px){
+	#denreg_contact label{
+		width: 90%;
+		font-size: 20px;
+		text-align: center;
+	}
+	
+}
+
+
 
 
 
