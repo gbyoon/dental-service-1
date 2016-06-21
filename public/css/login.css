@@ -275,4 +275,5 @@ form button:hover {
 
 /*밸리데이션*/
 
-.form span {border: 1px solid red;}
+.form .adminName {border:1px solid red;}
+.form .password {border:1px solid red;}

@@ -59,12 +59,12 @@
 		  <form class="form"  name="adminLoginForm" novalidate>
 			<input type="text" name="username" placeholder="아이디" ng-model="username" ng-required="true" autocomplete="off"/> <br/>
 			<span ng-show="adminLoginForm.username.$dirty && adminLoginForm.username.$invalid">
-			<span ng-show="adminLoginForm.username.$error.required">adminName 이 필요합니다.</span>
+			<span class="adminName" ng-show="adminLoginForm.username.$error.required">adminName 이 필요합니다.</span>
 			</span>
 			
 			<input type="password" name="password" placeholder="패스워드" ng-model="password" ng-required="true" autocomplete="off"/> <br/>
 			<span ng-show="adminLoginForm.password.$dirty && adminLoginForm.password.$invalid">
-			<span ng-show="adminLoginForm.password.$error.required">password 이 필요합니다.</span>
+			<span class="password" ng-show="adminLoginForm.password.$error.required">password 이 필요합니다.</span>
 			</span>			
 			
 			<button ng-click="submit()" id="login-button" ng-disabled="adminLoginForm.username.$dirty && adminLoginForm.username.$invalid || adminLoginForm.password.$dirty && adminLoginForm.password.$invalid">로그인</button>
