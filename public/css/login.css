@@ -84,8 +84,7 @@ body :-ms-input-placeholder {
 @media(max-width:355px){
 	
 	.container h1{
-		font-size: 15px;
-		border: 1px solid red;
+		font-size: 23px;
 		}
 	
 }
