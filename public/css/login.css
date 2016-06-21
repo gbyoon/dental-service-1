@@ -271,6 +271,10 @@ form button:hover {
   }
 }
 
+/*로그인 페이지 입니다 글씨*/
+
+.container h1 {font-size: 15px; border:1px solid red;}
+
 
 
 /*밸리데이션*/
