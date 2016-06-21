@@ -375,6 +375,7 @@ h6 {
 	.sub_menu ul {
 		margin-left: -78px;
 		text-align: center;
+		display: block;
 	}
 }
 
