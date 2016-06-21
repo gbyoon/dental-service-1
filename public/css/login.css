@@ -274,9 +274,9 @@ form button:hover {
 /*로그인 페이지 입니다 글씨*/
 
 
-@media (max-width: 355px){
+@media(max-width:355px){
 	
-	font-size: 15px;
+	h1{font-size: 15px;}
 	
 }
 
