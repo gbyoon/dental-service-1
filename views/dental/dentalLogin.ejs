@@ -96,46 +96,20 @@
       //delete $http.defaults.headers.common['X-Requested-With'];
       this.checkLoginInfo = function(idStr, pwdStr, callbackFunc) {
         
-        $http.get('/chkAdminLogin', {
+        $http.get('/chkDentalLogin', {
           params: {
             id: idStr,
             pwd: pwdStr
             }
           }).success(function(data){
-            callbackFunc(data);
-          }).error(function(){
+          // With the data succesfully returned, call our callback
+          //$scope.test_string = data;
+          callbackFunc(data);
+          //alert("error");
+        }).error(function(){
+          //alert("error");
         });
-      };
-
-    });
-
-    app.controller('mainCtrl', function($scope, dataService) {
-    //app.controller('mainCtrl', function($scope, $http) {
-
-      $scope.username = 'admin1';
-      $scope.password = '1111';
-
-      $scope.submit = function(){
-              
-        var id = $scope.username;
-        var pwd = $scope.password;
-        
-        dataService.checkLoginInfo(id, pwd, function(dataResponse) {
-
-          $scope.test_string = dataResponse;
-          if(dataResponse == 'Success')
-          {
-            window.location.href = '/adminRouter' ;
-            //$window.location.href = "/adminRouter";
-          }
-          else
-          {
-            window.location.href = '/adminLogin' ;
-            //$window.location.href = "/adminLogin";
-          }
-
-        });
-     
+       
       };
 
     });
@@ -158,6 +132,64 @@
     }]);
     */
 
+    app.controller('mainCtrl', function($scope, dataService) {
+    //app.controller('mainCtrl', function($scope, $http) {
+
+      $scope.submit = function(){
+              
+        var id = $scope.username;
+        var pwd = $scope.password;
+        
+        dataService.checkLoginInfo(id, pwd, function(dataResponse) {
+
+          $scope.test_string = dataResponse;
+          if(dataResponse == 'Success')
+          {
+            window.location.href = '/dentalRouter' ;
+          }
+          else
+          {
+            window.location.href = '/dentalLogin' ;
+          }
+
+        });     
+      };
+
+    });
+/*
+    var app = angular.module('adminApp', []);
+
+    app.service('dataService', function($http) {
+      //delete $http.defaults.headers.common['X-Requested-With'];
+      this.checkLoginInfo = function(callbackFunc) {
+        
+        $http.get('/checkLoginInfo', {
+          params: {
+            id: $scope.username,
+            pwd: $scope.password
+          }.success(function(data){
+          // With the data succesfully returned, call our callback
+          //$scope.test_string = data;
+          callbackFunc(data);
+          //alert("error");
+        }).error(function(){
+          //alert("error");
+        });
+       
+      };
+
+    });
+
+    app.controller('mainCtrl', function($scope, dataService) {
+      $scope.submit = function(){
+        dataService.checkLoginInfo(function(dataResponse) {
+
+          $scope.test_string = data;
+
+        });
+      };
+    });
+*/
     </script>
 	
   </body>
