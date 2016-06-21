@@ -83,9 +83,9 @@ body :-ms-input-placeholder {
 
 @media(max-width:355px){
 	
-	.container h1{
+   .container h1{
 		font-size: 23px;
-		}
+	}
 	
 }
 
@@ -303,3 +303,4 @@ form button:hover {
 	color: red;
 	font-weight: bold;
 	}
+	
