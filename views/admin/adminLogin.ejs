@@ -58,7 +58,7 @@
 		  
 		  <form class="form"  name="adminLoginForm" novalidate>
 			<input type="text" name="username" placeholder="아이디" ng-model="username" ng-required="true" autocomplete="off"/> <br/>
-			<span style="color:red" ng-show="adminLoginForm.username.$dirty && adminLoginForm.username.$invalid">
+			<span style="color:red; font-weight: bold; font-size:1em; border:1px solid black;" ng-show="adminLoginForm.username.$dirty && adminLoginForm.username.$invalid">
 			<span ng-show="adminLoginForm.username.$error.required">adminName 이 필요합니다.</span>
 			</span>
 			
