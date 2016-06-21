@@ -169,14 +169,14 @@
 
 @media(max-width:830px) {
 	.denreg_res_wrapper{
-		border: 1px solid red;
+
 		margin-left: 136px;
 	}
 }
 
 @media(max-width:740px) {
 	.denreg_res_wrapper{
-		border: 1px solid red;
+
 		margin-left: 20px;
 	}
 }
