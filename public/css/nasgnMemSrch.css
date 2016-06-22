@@ -113,10 +113,10 @@
 .nasgnmemsrch_res_wrapper{
 	border: 3px solid #EEEEEE;
 	width: 80%;
-
 	font-family: Ubuntu;
 	font-weight: 400;
 	color: #666;
+	margin-left: 147px;
 }
 
 @media (max-width: 809px){
