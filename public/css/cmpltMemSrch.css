@@ -110,7 +110,7 @@
 
 /*등록창*/
 
-.res_wrapper{
+.cmp_res_wrapper{
 	border: 3px solid #EEEEEE;
 	width: 80%;
 	/*margin-left: 150px;*/
@@ -120,12 +120,12 @@
 }
 
 @media (max-width: 809px){
-	.res_wrapper{
+	.cmp_res_wrapper{
 		margin-left: 80px;
 	}
 }
 
-.res_container{
+.cmp_res_container{
 	margin: 3.33334% auto;
 }
 
