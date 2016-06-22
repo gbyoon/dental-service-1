@@ -259,6 +259,7 @@ label {
 .densrch_res_wrapper{
 	border: 3px solid #EEEEEE;
 	width: 80%;
+	margin-top: 15px;
 	margin-left: 150px;
 	font-family: Ubuntu;
 	font-weight: 400;
