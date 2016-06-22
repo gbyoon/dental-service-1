@@ -183,6 +183,10 @@ form button {
 		margin: 0 auto 10px -23px;
 	}
 	
+	form input:focus {
+	  width: 275px;
+	}	
+	
 	form button{
 		border:1px solid red;
 		margin-left: -23px;
