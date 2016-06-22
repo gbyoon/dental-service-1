@@ -144,12 +144,7 @@ form input {
   font-weight: 300;
 }
 
-@media (max-width:330px){
-	form input{
-		border:1px solid red;
-		margin: 0 auto 10px -25px;
-	}
-}
+
 
 
 
@@ -161,6 +156,8 @@ form input:focus {
   width: 300px;
   color: #2196F3;
 }
+
+
 form button {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -178,6 +175,21 @@ form button {
           transition-duration: 0.25s;
   font-weight:bold;		  
 }
+
+/*330px일때 input태그*/
+@media (max-width:330px){
+	form input{
+		border:1px solid red;
+		margin: 0 auto 10px -23px;
+	}
+	
+	form button{
+		border:1px solid red;
+		margin-left: -23px;
+	}
+	
+}
+
 form button:hover {
   background-color: #f5f7f9;
 }
