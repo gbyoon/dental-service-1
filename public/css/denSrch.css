@@ -291,7 +291,7 @@ label {
 /*신규치과등록페이지 중간부분*/
 
 .denSrch-search {
-	width: 100%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -308,7 +308,7 @@ label {
 }
 
 .container-fluid-denSrch {
-	width: 70%;
+	width: 80%;
 	margin: 60px auto;
 	
 }
