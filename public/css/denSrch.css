@@ -286,7 +286,7 @@ label {
 }
 
 /*아이콘*/
-.denSrch-search span{
+.denSrch-search i{
 	border: 1px solid red;
 	float:left;
 	
