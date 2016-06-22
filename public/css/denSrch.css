@@ -285,6 +285,13 @@ label {
 	margin: 0 auto;
 }
 
+/*아이콘*/
+.denSrch-search span{
+	border: 1px solid red;
+	display: inline-block;
+	
+}
+
 .denSrch-search h4 {
 	font-weight: bold;
 	font-family: Ubuntu;
@@ -297,12 +304,7 @@ label {
 }
 
 
-/*아이콘*/
-.denSrch-search .densrch_ico{
-	border: 1px solid red;
-	display: inline-block;
-	
-}
+
 
 
 
