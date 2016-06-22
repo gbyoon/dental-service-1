@@ -276,7 +276,7 @@ label {
 
 @media (max-width: 810px){
 	.densrch_res_wrapper{
-		border:1px solid yellow;
+
 		margin-left: 18px;
 		width: 80%;
 	}
@@ -284,7 +284,7 @@ label {
 
 @media (max-width: 333px){
 	.densrch_res_wrapper{
-		border:1px solid red;
+
 		margin-left: 7px;
 		width: 95%;
 	}
@@ -305,7 +305,7 @@ label {
 
 /*아이콘*/
 .denSrch-search i{
-	border: 1px solid red;
+
 	display: inline-block;
 	
 }
