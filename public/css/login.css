@@ -179,7 +179,6 @@ form button {
 /*330px일때 input태그*/
 @media (max-width:330px){
 	form input{
-		border:1px solid red;
 		margin: 0 auto 10px -23px;
 	}
 	
@@ -188,7 +187,6 @@ form button {
 	}	
 	
 	form button{
-		border:1px solid red;
 		margin-left: -23px;
 	}
 	
