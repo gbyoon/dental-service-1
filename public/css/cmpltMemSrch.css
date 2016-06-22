@@ -170,7 +170,7 @@
 	cursor: pointer;
 }
 
-.cmp-showuser button2 {
+.cmp-showuser .cmp_button2 {
 	border: 1px solid red;
 	
 } 
