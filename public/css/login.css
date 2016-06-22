@@ -134,7 +134,7 @@ form input {
   width: 250px;
   border-radius: 3px;
   padding: 10px 15px;
-  margin: 0 auto 10px -27px;
+  margin: 0 auto 10px auto;
   display: block;
   text-align: center;
   font-size: 18px;
@@ -159,7 +159,6 @@ form button {
   background-color: white;
   border: 0;
   padding: 10px 15px;
-  margin-left: -25px;
   color: #77b1f9;
   border-radius: 3px;
   width: 250px;
