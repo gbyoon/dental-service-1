@@ -268,7 +268,7 @@ label {
 
 @media (max-width: 812px){
 	.densrch_res_wrapper{
-		border:1px solid red;
+
 		margin-left: 126px;
 		width: 80%;
 	}
@@ -277,6 +277,14 @@ label {
 @media (max-width: 778px){
 	.densrch_res_wrapper{
 		border:1px solid yellow;
+		margin-left: 18px;
+		width: 80%;
+	}
+}
+
+@media (max-width: 333px){
+	.densrch_res_wrapper{
+		border:1px solid red;
 		margin-left: 18px;
 		width: 80%;
 	}
