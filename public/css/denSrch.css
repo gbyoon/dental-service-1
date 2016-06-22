@@ -274,7 +274,7 @@ label {
 
 /*가운데 부분 테두리*/
 
-.res_wrapper{
+.densrch_res_wrapper{
 	border: 3px solid #EEEEEE;
 	width: 80%;
 	/*margin-left: 150px;*/
@@ -284,12 +284,12 @@ label {
 }
 
 @media (max-width: 809px){
-	.res_wrapper{
+	.densrch_res_wrapper{
 	margin-left: 80px;
 	}
 }
 
-.res_container{
+.densrch_res_container{
 	/*margin: 3.33334% auto;*/
 }
 
