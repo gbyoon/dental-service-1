@@ -300,6 +300,7 @@ label {
 /*아이콘*/
 .denSrch-search .densrch_ico{
 	border: 1px solid red;
+	display: inline-block;
 	
 }
 
