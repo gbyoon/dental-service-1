@@ -196,6 +196,14 @@
 	}
 }
 
+@media (max-width: 480px){
+	.memreg_res_wrapper h1{
+		border:1px solid red;		
+		margin-left: 17px;
+		width: 95%;
+	}
+}
+
 .res_container {
 	
 	max-width: 600px;
@@ -245,5 +253,13 @@
 	-o-background-image: linear-gradient(#2B75BD, #1F5F9C);
 	color: #FFF;
 	box-shadow: 2px 2px 3px #999;
+}
+
+@media (max-width:480px){
+	#contact label{
+		width: 90%;
+		font-size: 20px;
+		text-align: center;
+	}
 }
 
