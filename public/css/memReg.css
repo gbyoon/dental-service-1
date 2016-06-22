@@ -167,6 +167,13 @@
 	color: #666;
 }
 
+@media (max-width: 868px){
+	.memreg_res_wrapper{
+		border:1px solid red;
+		margin-left: 80px;
+	}
+}
+
 @media (max-width: 810px){
 	.memreg_res_wrapper{
 		margin-left: 80px;
