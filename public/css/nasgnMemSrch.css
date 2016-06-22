@@ -110,7 +110,7 @@
 
 /*res_wrapper*/
 
-.res_wrapper{
+.nasgnmemsrch_res_wrapper{
 	border: 3px solid #EEEEEE;
 	width: 80%;
 
@@ -120,12 +120,12 @@
 }
 
 @media (max-width: 809px){
-	.res_wrapper{
+	.nasgnmemsrch_res_wrapper{
 		margin-left: 80px;
 	}
 }
 
-.res_container{
+.nasgnmemsrch_res_container{
 	margin: 3.33334% auto;
 }
 
