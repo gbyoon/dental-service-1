@@ -194,9 +194,15 @@
 }
 
 .nas_row .nas_table{
-	border:1px solid red;
+
 }
 
+@media (max-width:1250px){
+	.nas_row .nas_table{
+		border:1px solid red;
+	}	
+	
+}
 
 
 
