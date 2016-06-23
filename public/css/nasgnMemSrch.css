@@ -187,7 +187,11 @@
 
 /*테이블*/
 
-.row .nas_table{
+.nas_row{
+	border:1px solid yellow;
+}
+
+.nas_row .nas_table{
 	border:1px solid red;
 }
 
