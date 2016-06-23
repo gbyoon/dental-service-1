@@ -204,11 +204,12 @@
 	
 }
 
-@media (max-width:1139px){
+
+@media (max-width:950px){
 	
 	.nas_row .nas_table{
 		border:1px solid red;
-		width: 70%;
+		margin-left: 70px;
 	}	
 	
 }
