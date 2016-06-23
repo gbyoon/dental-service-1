@@ -130,10 +130,14 @@
 }
 
 
+/*버튼조정*/
+
+button .nas_button {
+	border:1px solid red;
+}
 
 
 /*미배정 고객 리스트 showuser*/
-
 
 
 .Mem-showuser{
@@ -185,7 +189,6 @@
 	box-shadow: 2px 2px 3px #999;	
 }
 
-/*버튼조정*/
 
 
 
