@@ -208,13 +208,17 @@
 	
 	.nas_row .nas_table{
 		border:1px solid red;
-		margin-left: 80px;
+		margin-left: 26px;
 	}	
 	
 }
 
 
 @media (max-width:950px){
+	
+	.Mem-showuser {
+		border:1px solid red;
+	}
 	
 	.nas_row .nas_table{
 		border:1px solid red;
