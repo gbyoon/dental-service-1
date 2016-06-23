@@ -185,6 +185,12 @@
 	box-shadow: 2px 2px 3px #999;	
 }
 
+/*테이블*/
+
+.row .nas_table{
+	border:1px solid red;
+}
+
 
 
 
