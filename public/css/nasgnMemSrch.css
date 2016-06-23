@@ -132,7 +132,7 @@
 
 /*버튼조정*/
 
-button .nas_button {
+.button_wrapper button {
 	border:1px solid red;
 }
 
