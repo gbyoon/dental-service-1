@@ -204,6 +204,15 @@
 	
 }
 
+@media (max-width:1120px){
+	
+	.nas_row .nas_table{
+		border:1px solid red;
+		margin-left: 80px;
+	}	
+	
+}
+
 
 @media (max-width:950px){
 	
