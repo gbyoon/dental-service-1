@@ -130,11 +130,7 @@
 }
 
 
-/*버튼조정*/
 
-.button_wrapper button {
-	border:1px solid red;
-}
 
 
 /*미배정 고객 리스트 showuser*/
@@ -164,7 +160,7 @@
 	
 }
 
-.Mem-showuser button{
+.nas_button button{
 	margin: 30px 0 0 260px;
 	padding: 10px 15px;
 	border: 1px solid #00BCD4;
@@ -178,7 +174,7 @@
 	cursor: pointer;	
 }
 
-.Mem-showuser button:hover {
+.nas_button button:hover {
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	-moz-transition: all 0.5s ease-in-out 0s;
 	-o-transition: all 0.5s ease-in-out 0s;
