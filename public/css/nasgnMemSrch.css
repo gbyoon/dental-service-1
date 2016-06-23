@@ -180,5 +180,12 @@
 	box-shadow: 2px 2px 3px #999;	
 }
 
+/*미배정고객 버튼 위치조정*/
+
+.nas_saveuser, .nas_clsshowuser, .nas_refreshuserlist {
+	
+	border:1px solid red;
+}
+
 
 
