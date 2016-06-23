@@ -205,6 +205,13 @@
 	
 }
 
+@media (max-width:1139px){
+	.nas_row .nas_table{
+		width: 70%;
+	}	
+	
+}
+
 
 
 
