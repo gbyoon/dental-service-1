@@ -187,46 +187,16 @@
 
 /*테이블*/
 
-.nas_row{
-	border:1px solid yellow;
 
-}
-
-.nas_row .nas_table{
-
-}
 
 @media (max-width:1250px){
-	.nas_row .nas_table{
-
-		margin-left: 111px;
-	}	
-	
-}
-
-@media (max-width:1120px){
-	
-	.nas_row .nas_table{
-		border:1px solid red;
-		margin-left: 26px;
-	}	
-	
-}
-
-
-@media (max-width:950px){
-	
-	.Mem-showuser {
-		border:1px solid red;
-		margin-left: 7px;
+	.nasgnmemsrch_res_wrapper{
+		display: none;
 	}
 	
-	.nas_row .nas_table{
-		border:1px solid red;
-		margin-left: 70px;
-	}	
-	
 }
+
+
 
 
 
