@@ -20,11 +20,12 @@
 
 				<input type="text" ng-change="hideDentalInfo()" ng-model="obj" placeholder="치과명을 적어주세요" typeahead="obj as (obj.dentName + ' / ' + obj.mobile) for obj in getDentalCode($viewValue)" typeahead-loading="loadingMemcode" typeahead-on-select='onSelect($item, $model, $label)' class="form-control" kr-input>
 				<i ng-show="loadingMemcode" class="glyphicon glyphicon-refresh"></i>
-
-				<button class="nas_button" ng-click="saveUser()">고객배정</button>
-				<button class="nas_button" ng-click="clsShowUser()">닫기</button>
-				<button class="nas_button" ng-click="refreshUserList()">refresh</button>				
-										
+				
+				<div style="border:1px solid red;">
+				<button ng-click="saveUser()">고객배정</button>
+				<button ng-click="clsShowUser()">닫기</button>
+				<button ng-click="refreshUserList()">refresh</button>				
+				</div>						
 
 			</div>
 			
