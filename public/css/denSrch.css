@@ -221,7 +221,7 @@ label {
   }
     
   button {
-    display: block;
+    /*display: block;*/
     width: 30%;
 	margin: 0 auto;
     background: #FF8864;
