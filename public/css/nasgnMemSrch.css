@@ -189,8 +189,7 @@
 
 .nas_row{
 	border:1px solid yellow;
-	margin: 0;
-	padding: 0;
+
 }
 
 .nas_row .nas_table{
@@ -206,7 +205,7 @@
 }
 
 @media (max-width:1139px){
-	 
+	
 	.nas_row .nas_table{
 		border:1px solid red;
 		width: 70%;
