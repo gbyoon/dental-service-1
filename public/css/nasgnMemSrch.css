@@ -129,13 +129,8 @@
 	margin: 3.33334% auto;
 }
 
-/*미배정고객 버튼 위치조정*/
 
-.nas_saveuser,.nas_clsshowuser,.nas_refreshuserlist {
-	
-	border:1px solid red;
-	
-}
+
 
 /*미배정 고객 리스트 showuser*/
 
@@ -189,6 +184,8 @@
 	color: #FFF;
 	box-shadow: 2px 2px 3px #999;	
 }
+
+/*버튼조정*/
 
 
 
