@@ -189,6 +189,8 @@
 
 .nas_row{
 	border:1px solid yellow;
+	margin: 0;
+	padding: 0;
 }
 
 .nas_row .nas_table{
