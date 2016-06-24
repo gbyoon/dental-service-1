@@ -409,19 +409,16 @@ h6 {
 /*logout*/
 
 .logout-page {
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
-	border:10px solid black;
 	text-align: center;
-	padding: 5%;
-	margin-top: 10%;
+	background-color: blue;
 }
 
 .logout-page h1 {
 	font-size: 1.5em;
 	font-weight: bold;
-	background: black;
-	color: yellow;
+	color: #fff;
 	padding: 5%;
 }
 
